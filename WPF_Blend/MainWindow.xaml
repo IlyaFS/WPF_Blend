@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPF_Blend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Blend"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="47*"/>
+        </Grid.ColumnDefinitions>
+        <Ellipse HorizontalAlignment="Left" Height="58" Margin="362,127,0,0" Stroke="Black" VerticalAlignment="Top" Width="58">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.939,0.039" StartPoint="-0.001,0.983">
+                    <GradientStop Color="#FFE6DE18" Offset="0.284"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Path Data="M384.22078,130.95643 C384.22078,130.95643 370.22215,80.145171 395.74556,82.558292 421.46886,84.990312 397.92294,131.53917 397.92294,131.53917" Fill="#FFE9F7F7" HorizontalAlignment="Left" Height="51" Margin="380,78,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="30"/>
+        <Path Data="M368.99537,133.30516 C368.99537,133.30516 331.41521,92.060583 317.98059,111.08194 302.41304,133.12319 363.20846,147.53309 363.20846,147.53309" Fill="#FFE9F7F7" HorizontalAlignment="Left" Height="43" Margin="315,111,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="53"/>
+        <Path Data="M418.22875,136.73698 C418.22875,136.73698 448.25583,94.371634 461.26169,112.49166 478.39581,136.36324 423.40839,148.59611 423.40839,148.59611" Fill="#FFE9F7F7" HorizontalAlignment="Left" Height="40" Margin="414,111,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="48" Grid.ColumnSpan="2"/>
+        <Path Data="M413.88441,172.58796 C413.88441,172.58796 470.71173,187.03747 451.97009,205.23888 438.15373,218.65698 403.68771,182.87634 403.68771,182.87634" Fill="#FFE9F7F7" HorizontalAlignment="Left" Height="39" Margin="406,169,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="53" Grid.ColumnSpan="2"/>
+        <Path Data="M365.38534,170.11845 C365.38534,170.11845 311.78997,186.4175 331.10849,209.47762 345.83915,227.06131 376.21755,181.41042 376.21755,181.41042" Fill="#FFE9F7F7" HorizontalAlignment="Left" Height="43" Margin="327,170,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="51"/>
+        <Path Data="M396.10635,375.26008 C396.10635,375.26008 472.41391,316.102 418.47784,278.34792 351.05557,231.15377 374.13805,184.29586 374.13805,184.29586" HorizontalAlignment="Left" Height="193" Margin="382,181,0,0" Stroke="#FF20672B" Stretch="Fill" VerticalAlignment="Top" Width="35" StrokeThickness="7"/>
+        <Path Data="M407.14672,286.75935 C407.14672,286.75935 462.98557,176.85481 494.43801,233.36857 504.7018,251.81056 483.05991,265.86223 444.95327,270.89768 426.15336,273.38192 406.30714,288.25029 406.30714,288.25029" HorizontalAlignment="Left" Height="73" Margin="408,213,0,0" Stroke="#FF20672B" Stretch="Fill" VerticalAlignment="Top" Width="93" StrokeThickness="3" Fill="#FF76B569" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
